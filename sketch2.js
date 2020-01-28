@@ -11,7 +11,6 @@ text("click A to start",450,200)
  {
   window.location.href = "https://bigboybryson.github.io/tg2/index2.html";
 }
-}
 
 
 
