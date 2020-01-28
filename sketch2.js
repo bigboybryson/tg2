@@ -1,6 +1,6 @@
 var oot=0
 if (oot=0){
-text("click A to start",450,200')
+text("click A to start",450,200)
  if (keyDown("A"))
  {oot=1}
  }
