@@ -5,7 +5,6 @@ function preload(){
 function setup(){  
     createCanvas(900,400);
 
-  var  xs = .5;
 
   sprite2=createSprite(150,200,0,0);
 img=loadImage("e.png")
@@ -18,19 +17,20 @@ sprite.addImage(img);
 group.add(sprite);
   score = 0 ;
   pause = 0;
+  pause2 = .5; 
   coincollect = 4;
   time2 = 0;
 }
 
-if (xs<0)
+if (pause2<0)
 {text("press A to start",450,200)
     if (keyDown("p"))
-    {xs=1}
+    {pause=1}
 }
 
 
 
-if (xs=1) {
+if (pause2<.9) {
  function draw() {
  
 
