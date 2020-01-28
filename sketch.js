@@ -5,7 +5,7 @@ function preload(){
 function setup(){  
     createCanvas(900,400);
 
-   xs=.5;
+  var  xs = .5;
 
   sprite2=createSprite(150,200,0,0);
 img=loadImage("e.png")
