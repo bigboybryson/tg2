@@ -22,7 +22,7 @@ group.add(sprite);
   time2 = 0;
 }
 
-if (pause2<0)
+if (score=0)
 {text("press A to start",450,200)
     if (keyDown("p"))
     {pause=1}
@@ -30,7 +30,8 @@ if (pause2<0)
 
 
 
-if (pause2<.9) {
+if (score<.9) {
+  
  function draw() {
  
 
