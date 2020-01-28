@@ -30,7 +30,7 @@ if (score=0)
 
 
 
-if (score<.9) {
+while (score<.9) {
   
  function draw() {
  
