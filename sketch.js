@@ -1,11 +1,11 @@
 function preload(){
   mySound = loadSound('ppe.mp3');
- var xs=.5;
 
 }
 function setup(){  
     createCanvas(900,400);
 
+   xs=.5;
 
   sprite2=createSprite(150,200,0,0);
 img=loadImage("e.png")
@@ -25,7 +25,7 @@ group.add(sprite);
 if (xs<0)
 {text("press A to start",450,200)
     if (keyDown("p"))
-    {start=1}
+    {xs=1}
 }
 
 
