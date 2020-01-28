@@ -22,10 +22,10 @@ group.add(sprite);
   time2 = 0;
 }
 
-if (score=0)
+if (score<1)
 {text("press A to start",450,200)
     if (keyDown("p"))
-    {pause=1}
+    {score=1}
 }
 
 
