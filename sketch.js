@@ -21,15 +21,10 @@ group.add(sprite);
   coincollect = 4;
   time2 = 0;
 }
-if (score<1)
-{text("press A to start",450,200)
-    if (keyDown("p"))
-    {score=1}
-}
 
 
 
-while (score<.9) {
+
   
  function draw() {
  
@@ -118,7 +113,7 @@ drawSprites();
   
   }
  }
-}
+
 
 
 
